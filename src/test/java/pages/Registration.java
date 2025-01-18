@@ -30,6 +30,4 @@ public class Registration {
 	{
 		text_login.click();
 	}
-		
-
 }

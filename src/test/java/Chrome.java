@@ -9,8 +9,10 @@ public class Chrome {
 		//ChromeDriver obj=new ChromeDriver();
 		WebDriver obj1=new ChromeDriver();
 		//RemoteWebDriver obj=new ChromeDriver();
-	
-
+		
 	}
-
+	public void method1()
+	{
+		
+	}
 }
