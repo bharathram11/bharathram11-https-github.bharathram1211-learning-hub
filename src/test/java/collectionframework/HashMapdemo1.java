@@ -1,23 +1,25 @@
 package collectionframework;
 import java.util.HashMap;
-
+import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 public class HashMapdemo1 {
     public static void main(String[] args) {
         // Creating a HashMap with Integer keys and String values
-        HashMap<Integer, String> hm = new HashMap<>();
-        
-        // Adding elements to the HashMap
-        hm.put(101, "David");
-        hm.put(102, "Ramu");
-        hm.put(103, "Ravi");
-        hm.put(104, "Abdul");
+    	 Hashtable<Integer, String> hm = new Hashtable<>();
+
+         // Adding elements to the Hashtable
+         hm.put(101, "David");
+         hm.put(102, "Ramu");
+         hm.put(103, "Ravi");
+         hm.put(104, "Abdul");
         
         // Adding a null key and a null value
-        hm.put(null, "Unknown");
-        hm.put(105, null);
+        //hm.put(null, "Unknown");
+        hm.put(105, "hhh");
         
         // Displaying the HashMap
         System.out.println("HashMap: " + hm); // {101=David, 102=Ramu, 103=Ravi, 104=Abdul, null=Unknown, 105=null}

@@ -1,4 +1,4 @@
-package zero;
+
 import java.util.*;
 
 public class MyArrayListExample {  // Renamed class

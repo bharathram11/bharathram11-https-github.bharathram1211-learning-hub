@@ -1,4 +1,4 @@
-package zero;
+
 public class SimpleStringConcatenation {
     public static void main(String[] args) {
         String input = "aaabbbacfwww";

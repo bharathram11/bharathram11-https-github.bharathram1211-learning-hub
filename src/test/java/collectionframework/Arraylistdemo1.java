@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class Arraylistdemo1 {
     public static void main(String[] args) {
         // Define an ArrayList with a generic type
-        ArrayList<Object> al = new ArrayList<Object>();
+        ArrayList al = new ArrayList();
 
         al.add("123");
         al.add("345");
